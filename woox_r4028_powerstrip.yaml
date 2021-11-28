@@ -7,17 +7,17 @@ primary_entity:
       type: boolean
 secondary_entities:
   - entity: switch
-  dps:
+    dps:
     - id: 2
       name: switch_2
       type: boolean
   - entity: switch
-  dps:
+    dps:
     - id: 3
       name: switch_3
       type: boolean
   - entity: switch
-  dps:
+    dps:
     - id: 7
       name: switch_usb1
       type: boolean
