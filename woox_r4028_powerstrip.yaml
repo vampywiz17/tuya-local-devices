@@ -1,0 +1,75 @@
+name: Woox R4028
+primary_entity:
+  entity: switch
+  dps:
+    - id: 1
+      name: switch_1
+      type: boolean
+secondary_entities:
+  - entity: switch
+  dps:
+    - id: 2
+      name: switch_2
+      type: boolean
+  - entity: switch
+  dps:
+    - id: 3
+      name: switch_3
+      type: boolean
+  - entity: switch
+  dps:
+    - id: 7
+      name: switch_usb1
+      type: boolean
+  - entity: number
+    category: config
+    name: Timer_1
+    dps:
+      - id: 101
+        name: value
+        type: integer
+        range:
+          min: 0
+          max: 86400
+        mapping:
+          - scale: 60
+            step: 60
+  - entity: number
+    category: config
+    name: Timer_2
+    dps:
+      - id: 102
+        name: value
+        type: integer
+        range:
+          min: 0
+          max: 86400
+        mapping:
+          - scale: 60
+            step: 60
+  - entity: number
+    category: config
+    name: Timer_3
+    dps:
+      - id: 103
+        name: value
+        type: integer
+        range:
+          min: 0
+          max: 86400
+        mapping:
+          - scale: 60
+            step: 60
+  - entity: number
+    category: config
+    name: Timer_usb1
+    dps:
+      - id: 105
+        name: value
+        type: integer
+        range:
+          min: 0
+          max: 86400
+        mapping:
+          - scale: 60
+            step: 60
