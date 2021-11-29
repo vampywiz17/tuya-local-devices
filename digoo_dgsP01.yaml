@@ -1,0 +1,14 @@
+   
+name: DIGOO DG-SP01
+primary_entity:
+  entity: switch
+  dps:
+    - id: 1
+      name: switch
+      type: boolean
+secondary_entities:
+  - entity: switch
+    dps:
+    - id: 27
+      name: switch_led
+      type: boolean
