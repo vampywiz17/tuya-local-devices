@@ -12,3 +12,12 @@ secondary_entities:
     - id: 27
       name: switch_led
       type: boolean
+  - entity: light
+    category: config
+    dps:
+      - id: 29
+        type: integer
+        name: brightness
+      range:
+        min: 25
+        max: 255
