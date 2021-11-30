@@ -17,9 +17,7 @@ https://github.com/jasonacox/tinytuya
 
 # Important
 
-- the working configuration files will be deleted and committed to main tuya-local repo:
-
-https://github.com/make-all/tuya-local
+- the working configuration files will be deleted and committed to main tuya-local repo: https://github.com/make-all/tuya-local
 
 - If you create a own config, please do not commit it here, do it the tuya-local main repository directly!
 
