@@ -17,10 +17,10 @@ https://github.com/jasonacox/tinytuya
 
 # Important
 
-the working configuration files will be deleted and committed to main tuya-local repo:
+- the working configuration files will be deleted and committed to main tuya-local repo:
 
 https://github.com/make-all/tuya-local
 
-If you create a own config, please do not commit it here, do it the tuya-local main repository directly!
+- If you create a own config, please do not commit it here, do it the tuya-local main repository directly!
 
-If you have a simple plug,outlet,one gang switch,etc... please first try this config: [Simple Switch](https://github.com/make-all/tuya-local/blob/main/custom_components/tuya_local/devices/simple_switch.yaml)
+- If you have a simple plug,outlet,one gang switch,etc... please first try this config: [Simple Switch](https://github.com/make-all/tuya-local/blob/main/custom_components/tuya_local/devices/simple_switch.yaml)
