@@ -4,22 +4,26 @@ primary_entity:
   dps:
     - id: 1
       name: switch_1
+      class: switch
       type: boolean
 secondary_entities:
   - entity: switch
     dps:
     - id: 2
       name: switch_2
+      class: switch
       type: boolean
   - entity: switch
     dps:
     - id: 3
       name: switch_3
+      class: switch
       type: boolean
   - entity: switch
     dps:
     - id: 7
       name: switch_usb1
+      class: switch
       type: boolean
   - entity: number
     category: config
