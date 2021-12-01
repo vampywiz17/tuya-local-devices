@@ -6,12 +6,6 @@ primary_entity:
     - id: 1
       type: boolean
       name: switch
-    - id: 17
-      type: integer
-      name: current_energy
-      readonly: true
-      mapping:
-        - step: 100
     - id: 18
       type: integer
       name: current_a
@@ -72,18 +66,6 @@ secondary_entities:
         unit: W
         mapping:
           - scale: 10
-    - entity: sensor
-    category: diagnostic
-    class: energy
-    name: Energy
-    dps:
-      - id: 17
-        name: sensor
-        type: integer
-        class: energy
-        unit: kWh
-        mapping:
-          - step: 100
   - entity: number
     category: config
     name: Timer 1
