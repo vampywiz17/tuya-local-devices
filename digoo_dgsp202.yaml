@@ -6,6 +6,12 @@ primary_entity:
     - id: 1
       type: boolean
       name: switch
+    - id: 17
+      type: integer
+      name: current_energy
+      readonly: true
+      mapping:
+        - step: 100
     - id: 18
       type: integer
       name: current_a
