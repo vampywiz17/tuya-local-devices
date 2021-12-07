@@ -9,6 +9,6 @@ primary_entity:
 secondary_entities:
   - entity: light
     dps:
-    - id: 27
-      name: light
-      type: boolean
+      - id: 27
+        type: boolean
+        name: light
