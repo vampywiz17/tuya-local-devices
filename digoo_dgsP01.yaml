@@ -1,14 +1,17 @@
-   
 name: DIGOO DG-SP01
 primary_entity:
   entity: switch
+  name: outlet 1
+  class: switch
   dps:
     - id: 1
-      name: switch
       type: boolean
+      name: switch
 secondary_entities:
   - entity: switch
+    name: light
+    class: switch
     dps:
       - id: 27
         type: boolean
-        name: light
+        name: switch
